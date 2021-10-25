@@ -1,0 +1,41 @@
+.accordion
+{
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.tab input, .tab-content
+{
+   display: none;
+}
+
+.tab
+{
+  border-left: 2px solid #E5E5E5;
+  border-right: 2px solid #E5E5E5;
+  border-bottom: 1px solid #9F9F9F;
+  background-color: #D3D3D3;
+  border-radius: 10px;
+}
+
+.tab-tittle
+{
+  padding: 10px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tab-content {
+  border-top: 1px solid #9F9F9F;
+  padding: 10px 20px;
+  background-color: #EBEBEB;
+  text-align: center;
+  text-align: left;
+ }
+
+ .tab :checked ~ .tab-content {
+  display: block; /* Показываем содержимое */
+ }
