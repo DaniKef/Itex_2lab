@@ -36,5 +36,5 @@
  }
 
  .tab :checked ~ .tab-content {
-  display: block; /* Показываем содержимое */
+  display: block;
  }
